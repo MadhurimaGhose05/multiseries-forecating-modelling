@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "file": "series_A.csv",
+      "sha256": "cf0f62a672a9822fd2a756eb4d9fca276afe118e950b3aea5574e463ffd22145",
+      "rows": 35064
+    },
+    {
+      "file": "series_C.csv",
+      "sha256": "f8e50a24598f5b2b538ee3e7489cdfcf48af89690e8b50273e60452f7f316804",
+      "rows": 35064
+    },
+    {
+      "file": "series_D.csv",
+      "sha256": "62fe0a24a657c1ce533626a5a5169eca0f9760001113045d16a4e270f3578fcb",
+      "rows": 35064
+    },
+    {
+      "file": "series_E.csv",
+      "sha256": "1dff824a1c6e969c271e65aa0eed3bd32c7d3a5a4bdc315549074dee20af3249",
+      "rows": 35064
+    },
+    {
+      "file": "series_F.csv",
+      "sha256": "fd3296e6ec11aa521ad637d8958ed83c8955164ba7a8847f8ce0072fa84ac6bb",
+      "rows": 35064
+    },
+    {
+      "file": "series_G.csv",
+      "sha256": "5e9e0771168bb6c19a88c8199a78666ff8207da1a9908483cb236cab7c447d28",
+      "rows": 35064
+    },
+    {
+      "file": "series_H.csv",
+      "sha256": "ceb88b3da85607ea6634081bfe9c02563f9cb676cfa2074d627865a2fbba2b0c",
+      "rows": 35064
+    },
+    {
+      "file": "series_I.csv",
+      "sha256": "584c60db0585f2e9177815efbc8a5d0d5bb265a0b6f1ac05b7850ca7fd21c950",
+      "rows": 35064
+    },
+    {
+      "file": "series_J.csv",
+      "sha256": "94027da8e96644d11d2d627f120408dfe683a0de2cc3044e7ff9146d27fb379f",
+      "rows": 35064
+    },
+    {
+      "file": "series_L.csv",
+      "sha256": "6808162149f50ad08749c4c2d21b33d3695bc7d5356a14bcbeb88b7bbf7e76f8",
+      "rows": 35064
+    }
+  ],
+  "dropped_duplicates": [
+    {
+      "file": "series_A_1.csv",
+      "identical_to": "series_A.csv"
+    },
+    {
+      "file": "series_D_1.csv",
+      "identical_to": "series_D.csv"
+    },
+    {
+      "file": "series_J_1.csv",
+      "identical_to": "series_J.csv"
+    },
+    {
+      "file": "series_L_1.csv",
+      "identical_to": "series_L.csv"
+    }
+  ],
+  "series": [
+    {
+      "series_id": "series_A",
+      "source": "series_A.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 2.64
+    },
+    {
+      "series_id": "series_C",
+      "source": "series_C.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 2.22
+    },
+    {
+      "series_id": "series_D",
+      "source": "series_D.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 2.14
+    },
+    {
+      "series_id": "series_E",
+      "source": "series_E.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 1.76
+    },
+    {
+      "series_id": "series_F",
+      "source": "series_F.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 1.84
+    },
+    {
+      "series_id": "series_G",
+      "source": "series_G.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 2.72
+    },
+    {
+      "series_id": "series_H",
+      "source": "series_H.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 1.79
+    },
+    {
+      "series_id": "series_I",
+      "source": "series_I.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 2.6
+    },
+    {
+      "series_id": "series_J",
+      "source": "series_J.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 1.93
+    },
+    {
+      "series_id": "series_L",
+      "source": "series_L.csv",
+      "rows": 35064,
+      "inserted_gap_rows": 0,
+      "start": "2013-03-01 00:00:00",
+      "end": "2017-02-28 23:00:00",
+      "target_missing_pct": 1.98
+    }
+  ]
+}
