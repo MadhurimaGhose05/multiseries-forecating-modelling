@@ -1,0 +1,37 @@
+{
+  "exog": true,
+  "kind": "global_hgb_quantile",
+  "n_features": 85,
+  "params": {
+    "early_stopping": false,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.08,
+    "max_bins": 255,
+    "max_iter": 150,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 200
+  },
+  "quantiles": [
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95
+  ],
+  "seed": 42,
+  "series": [
+    "series_A",
+    "series_C",
+    "series_D",
+    "series_E",
+    "series_F",
+    "series_G",
+    "series_J",
+    "series_L"
+  ],
+  "sha256": "107a468921468ff6af48bbc6ad1725008b6531d260e8635f40ec0e4127171d82",
+  "sklearn": "1.8.0",
+  "stride_h": 12,
+  "train_end": "2016-01-01 00:00:00",
+  "train_rows": 225294
+}
