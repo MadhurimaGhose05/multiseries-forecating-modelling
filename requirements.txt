@@ -1,0 +1,26 @@
+# ---- data / model stack: EXACT pins (the shipped artifacts are scikit-learn pickles,
+#      so scikit-learn/numpy/pandas/python must match what produced them: py3.12) ----
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+joblib==1.5.3
+requests==2.33.1
+
+# ---- serving / UI / tests: compatible-release pins.
+# TODO(lock): these were not installable in the authoring sandbox (offline). Run
+#   pip-compile --generate-hashes requirements.in   (or `uv pip compile`)
+# once and commit the resulting lock file, then replace this section with it.
+fastapi~=0.115
+uvicorn[standard]~=0.30
+python-multipart~=0.0.9
+pydantic~=2.8
+streamlit~=1.38
+plotly~=5.24
+httpx~=0.27
+pytest~=8.3
+
+# ---- foundation model (CPU). torch comes from the CPU wheel index (see Dockerfile).
+# TODO(lock): pin exact versions validated against the weights revision you pin.
+chronos-forecasting~=2.0
+torch~=2.4
