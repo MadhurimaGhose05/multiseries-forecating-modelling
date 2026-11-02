@@ -1,0 +1,7 @@
+{
+  "kind": "chronos2_zero_shot",
+  "model_id": "amazon/chronos-2",
+  "revision": "main",
+  "context_length": 1024,
+  "device": "cuda"
+}
